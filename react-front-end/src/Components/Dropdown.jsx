@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import {List, ListItem, ListItemIcon,ListItemText,Collapse, Divider} from '@material-ui/core';
 import ExpandLess from '@material-ui/icons/ExpandLess';
 import ExpandMore from '@material-ui/icons/ExpandMore';
@@ -29,11 +29,6 @@ export default function NestedList() {
     <List className="main"
       component="nav"
       aria-labelledby="nested-list-subheader"
-      // subheader={
-      //   <ListSubheader component="div" id="nested-list-subheader">
-      //     Nested List Items
-      //   </ListSubheader>
-      // }
     >
       <Link className="a" to="/build">
         <ListItem button>

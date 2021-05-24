@@ -1,5 +1,4 @@
 import React from 'react';
-import Card from '@material-ui/core/Card';
 import axios from 'axios';
 import WeatherItem from './WeatherItem';
 import './Weather.scss';

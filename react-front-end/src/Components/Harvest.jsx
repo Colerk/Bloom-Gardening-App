@@ -29,12 +29,6 @@ export default function Harvest() {
     setMyHarvest(myInfo)
   }
 
-  const task_date = function (day) {
-    const harvest_date = moment().add(day, 'days')
-    const counter = moment(harvest_date).fromNow();
-    return counter;
-  }
-
   return (
     <main className="harvest-card">
       <div className="harvest-container">

@@ -1,5 +1,4 @@
-import React, {useEffect, useState} from 'react';
-import axios from 'axios';
+import React, { useState } from 'react';
 import VegetableCard from './VegetableCard';
 import { makeStyles } from '@material-ui/core/styles';
 import VegetableDrawer from './VegetableDrawer'
@@ -46,7 +45,6 @@ const useStyles = makeStyles((theme) => ({
 export default function Vegetables() {
   const [open, setOpen] = useState(false);
   const [info, setInfo] = React.useState(true);
-  const [veg, setVeg] = useState([]);
   const { state, setState } = useAppData();
 
   const classes = useStyles();
@@ -73,27 +71,6 @@ export default function Vegetables() {
     let wateriest = state.vegetables.sort((a, b) => (a.water_time > b.water_time) ? 1 : -1)
     setState({...state, vegetables: wateriest})
   }
-
-  // const renderVegetableCard = (veg) =>{
-  //   const data = veg.map(element => {
-  //     return (
-  //       <VegetableCard
-  //        {...element}
-  //       onClick ={handleDrawerOpen} />
-  //     )
-  //   }) 
-  //   return data
-  // }
-
-  // const getAllVeg = () => {
-  //   axios.get ('/api/vegetables')
-  //   .then ((res) =>{
-  //     const allVeg = res.data;
-  //     //add data to state
-  //     setVeg(allVeg)
-  //   })
-  //   .catch(error => console.error(`Error: ${error}`))
-  // }
 
   return (
     <div className="box"> 

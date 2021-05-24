@@ -10,7 +10,6 @@ import MenuIcon from "@material-ui/icons/Menu";
 import ChevronRightIcon from "@material-ui/icons/ChevronRight";
 import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
 import NestedList from "./Dropdown";
-import "./Sidebar.scss";
 import { Link } from "react-router-dom";
 
 const drawerWidth = 300;

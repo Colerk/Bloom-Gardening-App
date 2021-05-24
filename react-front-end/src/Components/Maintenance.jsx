@@ -11,7 +11,6 @@ export default function Maintenance() {
   const [tasks, setTasks] = useState([]);
   const { state } = useAppData();
   const { id } = useParams();
-  const today     = moment();
 
   useEffect(() => {
     buildTasks(state.maintenance)

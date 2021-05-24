@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-// import axios from 'axios';
 import VegetableAbout from './VegetableAbout';
 import Grid from "@material-ui/core/Grid";
 import useAppData from "hooks/useAppData";

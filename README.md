@@ -1,46 +1,88 @@
-# React + Express No-Fluff Boilerplate
+<!-- PROJECT LOGO -->
+<p align=center>
+    <img src=>
 
-A boilerplate project for anyone interested in making a project that uses React and Express.
 
-This repository is a bootleg of @NimaBoscarino's [React Rails Boilerplate](https://github.com/NimaBoscarino/react-rails-boilerplate). It uses the same React app, but replaces the Rails server with an Express server.
 
-Note! This boilerplate has _no fluff_! That means that there's nothing set up for you to do authentication stuff, there's no Redux stuff, and there's no React Router stuff. On the Express end, there is no session storage or database connection.
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-The main important bit is that the React project has `proxy` set to `localhost:8080` in the `package.json` file, and that the Express app listens to port 8080 in `server.js`. Take a look!
+!["Dashboard"]()
 
-You can (and perhaps should) rename the directories `express-back-end` and `react-front-end` if you want-- The name doesn't matter.
+Starting your first garden can be overwhelming... What plants should I choose? How often should I water? Bloom answers all of these questions for you, providing you with the knowledge and tools to know what plants to choose and how to care for them! 
 
-## Running the projects
+Bloom is a garden management platform designed to help you keep your plants alive and healthy.
 
-You need **TWO** terminal windows/tabs for this (or some other plan for running two Node processes).
 
-In one terminal, `cd` into `react-front-end`. Run `npm install` or `yarn` to install the dependencies. Then run `npm start` or `yarn start`, and go to `localhost:3000` in your browser.
+### Built With
 
-In the other terminal, `cd` into `express-back-end`. Run `npm install` or `yarn` to install the dependencies, then `npm start` or `yarn start` to launch the server.
+* React
+* JavaScript
+* Node.js
+* Express
+* PostgreSQL
+* 
 
-In the browser, you can click on the button and see the data get loaded.
+<!-- USAGE EXAMPLES -->
+## Usage
 
-If this doesn't work, please message me!
+Spend some time on our information page reviewing what plants you find interesting and want to grow.
 
-## Next steps
+From there, our planning page will provide all the critical information you need to grow each of those vegetables, including their difficulty, climate, and sunlight requirements. Select all the vegetables you want to grow and add them to your Vegetable Basket. Once your ready to get started, click Build My Garden to create your specific dashboard.
 
-From here, you can start working on your project!
+The dashboard provies weather updates to help with watering requirements, a table showing all your vegetables with their planting instructions, and your harvest and maintenance schedule. Once you have planted them, check them off to populate your garden maintenance and harvest schedules. 
 
-As soon as the dependencies are installed, your Express server can serve JSON and static assets (like images) in response to API calls from the React app. You can get started on developing your React app, routing plan, etc. right away! Any request that isn't handled by React is passed on to the Express server. That means that you can call a route like `/api/users` from React using `fetch`, `axios`, or something else, and Express will receive it as though they originated from the same app. For routing, best practice is to namespace all of your data routes to `/api`, so that they don't clash with other routing schemes, like React Router.
+Come back daily to see the progress of you garden, know when to harvest each vegetable, and keep and eye on your garden chores!
 
-At some point, you'll likely want to install and configure a database driver for Postgres or MongoDB-- Refer to past projects for hints on how to do this.
 
-And don't forget to update the README!
+<!-- GETTING STARTED -->
+## Getting Started
 
-## Example Projects
+To get a local copy up and running follow these simple steps.
 
-You might want to look at examples of projects that have used this boilerplate for hints on how to extend it. Here are a few:
+### Dependencies
 
-* [Later Cart](https://github.com/bonitac/later-cart)
-* [Buddi.io](https://github.com/Danny-Tran/buddi.io)
+Here is a list of the dependcies you will need to run the app.
 
-If you'd like your project added to the list, please shoot me a message.
+* npm
+  ```sh
+  axios: ^0.21.1,
+  body-parser: ^1.19.0,
+  chalk: ^2.4.2,
+  cookie-parser: ^1.4.5,
+  dotenv: ^2.0.0,
+  ejs: ^2.6.2,
+  express: ^4.17.1,
+  morgan: ^1.10.0,
+  node-sass-middleware: ^0.11.0,
+  pg: ^8.5.1,
+  pg-native: ^3.0.0,
+  pool: ^0.4.1
+  ```
 
-## Contact
+### Installation
 
-Please contact me on Slack (@garrettgsb) or Nima at `nima@lighthouselabs.com` if you have any questions, requests, or feedback, or post an issue to this repo. If you are using the boilerplate, I'd love to hear from you as well!
+1. Clone the repo
+  git clone https://github.com/a-tuyen/to-do-list
+2. Install NPM packages
+  npm install
+3. Create the database: `bash setup_db.sh`
+  - Check the db folder to see what gets created and seeded in the SDB
+4. Run both servers: `npm start`
+  - Note: you need both your database and front end server running
+5. Visit `http://localhost:3000/`
+
+
+
+## Screenshots
+
+!["Welcome"]()
+!["Task ID page"]()
+
+
+<!-- CONTRIBUTING -->
+## Contributors
+- [Colerk](https://github.com/Colerk)
+- [joelhart89](https://github.com/joelhart89)
+- [Wagsnerlund](https://github.com/Wagsnerlund)
+

@@ -68,16 +68,14 @@
 .vegcontainer {
 	height: 100%;
 	display: flex;
-  // flex-direction: row;
   height: 20vh;
 	align-items: center;
   margin-bottom: 250px;
   margin-top: 110px;
-  // justify-content: center;
+  justify-content: center;
 }
 .veganimated-word {
 	letter-spacing: 0.4em;
-	// font-weight: 600;
 	font-size: 42px;
   font-weight: bold;
 	text-align: center;
