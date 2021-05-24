@@ -2,7 +2,6 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import ImageCard from "../Home/ImageCard";
-import places from "../Home/hero";
 import useWindowPosition from "../../hooks/useWindowPosition";
 import './AboutPictures.scss';
 import about from "./aboutHero";
