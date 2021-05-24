@@ -66,7 +66,7 @@ export default function Header() {
       >
         <div className={classes.container}>
           <h1 className={classes.title}>
-            Welcome to Coles<br/>
+            Welcome to <br/>
             <div>
                 <img className={classes.colorText} src={"../images/logos/bloom-sprout.svg"} alt='' /></div>
           </h1>
