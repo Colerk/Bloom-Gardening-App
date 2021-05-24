@@ -29,11 +29,6 @@ export default function NestedList() {
     <List className="main"
       component="nav"
       aria-labelledby="nested-list-subheader"
-      // subheader={
-      //   <ListSubheader component="div" id="nested-list-subheader">
-      //     Nested List Items
-      //   </ListSubheader>
-      // }
     >
       <Link className="a" to="/build">
         <ListItem button>
