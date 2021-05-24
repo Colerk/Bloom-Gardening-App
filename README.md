@@ -39,18 +39,27 @@ Here is a list of the dependcies you will need to run the app.
 
 * npm
   ```sh
-  axios: ^0.21.1,
-  body-parser: ^1.19.0,
-  chalk: ^2.4.2,
-  cookie-parser: ^1.4.5,
+  @fortawesome/fontawesome-free: ^5.15.3,
+  @material-ui/core: ^4.11.4,
+  @material-ui/icons: ^4.11.2,
+  @material-ui/lab: ^4.0.0-alpha.58,
+  axios: ^0.18.1,
+  bootstrap: ^4.6.0,
   dotenv: ^2.0.0,
-  ejs: ^2.6.2,
-  express: ^4.17.1,
-  morgan: ^1.10.0,
-  node-sass-middleware: ^0.11.0,
-  pg: ^8.5.1,
-  pg-native: ^3.0.0,
-  pool: ^0.4.1
+  font-awesome: ^4.7.0,
+  moment: ^2.29.1,
+  node-sass: ^4.14.0,
+  react: ^16.8.6,
+  react-bootstrap: ^1.6.0,
+  react-card-flip: ^1.1.1,
+  react-dom: ^16.8.6,
+  react-pro-sidebar: ^0.6.0,
+  react-query: ^3.16.0,
+  react-router-dom: ^5.2.0,
+  react-scripts: 2.1.8,
+  react-scroll: ^1.8.2,
+  react-toastify: ^7.0.4,
+  styled-components: ^5.3.0
   ```
 
 ### Installation
