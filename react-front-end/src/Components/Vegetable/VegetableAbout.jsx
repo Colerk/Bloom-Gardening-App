@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import "./VegetableAbout.scss";
 import useAppData from "../../hooks/useAppData";
 import { Link } from "react-router-dom";
-
 import Alert from '@material-ui/lab/Alert';
 import { makeStyles } from '@material-ui/core/styles';
 import Collapse from '@material-ui/core/Collapse';
