@@ -1,13 +1,7 @@
-<!-- PROJECT LOGO -->
-<p align=center>
-    <img src=>
-
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-!["Dashboard"]()
+!["Dashboard"](https://raw.githubusercontent.com/Colerk/Bloom-Gardening-App/master/react-front-end/public/images/readme/Home.png)
 
 Starting your first garden can be overwhelming... What plants should I choose? How often should I water? Bloom answers all of these questions for you, providing you with the knowledge and tools to know what plants to choose and how to care for them! 
 
@@ -21,7 +15,6 @@ Bloom is a garden management platform designed to help you keep your plants aliv
 * Node.js
 * Express
 * PostgreSQL
-* 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -76,8 +69,10 @@ Here is a list of the dependcies you will need to run the app.
 
 ## Screenshots
 
-!["Welcome"]()
-!["Task ID page"]()
+!["Vegetables"](https://raw.githubusercontent.com/Colerk/Bloom-Gardening-App/master/react-front-end/public/images/readme/Vegetables.png)
+!["Build"](https://raw.githubusercontent.com/Colerk/Bloom-Gardening-App/master/react-front-end/public/images/readme/Build.png)
+
+!["Dashboard"](https://raw.githubusercontent.com/Colerk/Bloom-Gardening-App/master/react-front-end/public/images/readme/Dashboard.png)
 
 
 <!-- CONTRIBUTING -->
